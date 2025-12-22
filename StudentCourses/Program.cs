@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using StudentCourses.Data;
 using StudentCourses;
+using StudentCourses.Services;
+using StudentCourses.Data.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +16,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+
 });
+
+
+builder.Services.AddScoped<IAdminService, AdminService>();
 
 var app = builder.Build();
 

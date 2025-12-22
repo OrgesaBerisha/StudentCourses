@@ -139,3 +139,4 @@ C:\Users\Orgesa\source\repos\StudentCourses\StudentCourses\obj\Debug\net8.0\refi
 C:\Users\Orgesa\source\repos\StudentCourses\StudentCourses\obj\Debug\net8.0\StudentCourses.pdb
 C:\Users\Orgesa\source\repos\StudentCourses\StudentCourses\obj\Debug\net8.0\StudentCourses.genruntimeconfig.cache
 C:\Users\Orgesa\source\repos\StudentCourses\StudentCourses\obj\Debug\net8.0\ref\StudentCourses.dll
+C:\Users\Orgesa\source\repos\StudentCourses\StudentCourses\bin\Debug\net8.0\BCrypt.Net-Next.dll

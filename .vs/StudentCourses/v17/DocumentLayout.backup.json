@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|c:\\users\\orgesa\\source\\repos\\studentcourses\\studentcourses\\migrations\\20251222124751_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\migrations\\20251222124751_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|c:\\users\\orgesa\\source\\repos\\studentcourses\\studentcourses\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|c:\\users\\orgesa\\source\\repos\\studentcourses\\studentcourses\\data\\dto\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\data\\dto\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|c:\\users\\orgesa\\source\\repos\\studentcourses\\studentcourses\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|c:\\users\\orgesa\\source\\repos\\studentcourses\\studentcourses\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|c:\\users\\orgesa\\source\\repos\\studentcourses\\studentcourses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|c:\\users\\orgesa\\source\\repos\\studentcourses\\studentcourses\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{ED87B502-65BB-480F-8F21-3AB5C36F7A04}|StudentCourses\\StudentCourses.csproj|solutionrelative:studentcourses\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -27,6 +51,83 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20251222124751_Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Migrations\\20251222124751_Admin.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\Migrations\\20251222124751_Admin.cs",
+              "ToolTip": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Migrations\\20251222124751_Admin.cs",
+              "RelativeToolTip": "StudentCourses\\Migrations\\20251222124751_Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T12:47:52.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Data\\DTO\\AdminDTO.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\Data\\DTO\\AdminDTO.cs",
+              "ToolTip": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Data\\DTO\\AdminDTO.cs",
+              "RelativeToolTip": "StudentCourses\\Data\\DTO\\AdminDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T12:40:50.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Models\\User.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Models\\User.cs",
+              "RelativeToolTip": "StudentCourses\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T12:26:20.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Program.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\Program.cs",
+              "ToolTip": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Program.cs",
+              "RelativeToolTip": "StudentCourses\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwC4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T21:13:38.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Seed.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\Seed.cs",
+              "ToolTip": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Seed.cs",
+              "RelativeToolTip": "StudentCourses\\Seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T21:00:45.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "StudentCourses\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\Data\\DataContext.cs",
+              "RelativeToolTip": "StudentCourses\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T21:00:13.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Orgesa\\source\\repos\\StudentCourses\\StudentCourses\\appsettings.json",
               "RelativeDocumentMoniker": "StudentCourses\\appsettings.json",
@@ -34,8 +135,11 @@
               "RelativeToolTip": "StudentCourses\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-10T19:51:07.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T19:51:07.39Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",

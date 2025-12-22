@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StudentCourses.Models;
 using System.Data;
 
 namespace StudentCourses.Data
@@ -9,7 +10,8 @@ namespace StudentCourses.Data
         {
         }
 
-        
+
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)  //lidhjet bohen qetu one to many
         {
@@ -19,3 +21,6 @@ namespace StudentCourses.Data
 
     }
 }
+
+
+
