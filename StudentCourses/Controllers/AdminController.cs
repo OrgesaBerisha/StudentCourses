@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StudentCourses.Data.DTO;
 using StudentCourses.Data.Interface;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace StudentCourses.Controllers
 {
     [ApiController]
     [Route("api/admins")]
+    [Authorize(Roles = "Admin")]
     public class AdminController : ControllerBase
     {
 

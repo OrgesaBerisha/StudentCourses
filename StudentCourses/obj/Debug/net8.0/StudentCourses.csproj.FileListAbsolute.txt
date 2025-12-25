@@ -282,3 +282,4 @@ C:\Users\Admin\source\repos\StudentCourses\StudentCourses\obj\Debug\net8.0\refin
 C:\Users\Admin\source\repos\StudentCourses\StudentCourses\obj\Debug\net8.0\StudentCourses.pdb
 C:\Users\Admin\source\repos\StudentCourses\StudentCourses\obj\Debug\net8.0\StudentCourses.genruntimeconfig.cache
 C:\Users\Admin\source\repos\StudentCourses\StudentCourses\obj\Debug\net8.0\ref\StudentCourses.dll
+C:\Users\Admin\source\repos\StudentCourses\StudentCourses\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
