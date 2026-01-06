@@ -1,4 +1,5 @@
-﻿using StudentCourses.Data;
+﻿using Microsoft.AspNetCore.Identity;
+using StudentCourses.Data;
 using StudentCourses.Models;
 
 namespace StudentCourses
@@ -52,6 +53,38 @@ namespace StudentCourses
 
             _context.SaveChanges();
         }
+
+        public static void SeedCourses(DataContext context)
+        {
+            if (!context.Courses.Any())
+            {
+                // Vendos një Id ekzistues të profesorit manual ose krijo më pas userin në Program.cs
+                string professorId = "1"; // <-- ky duhet të jetë Id i userit që ekziston në DB
+
+                context.Courses.AddRange(
+                    new Course { Name = "Mathematics", Description = "Math course", ProfessorId = professorId, ImageUrl = "/images/math.jpg" },
+                    new Course { Name = "Physics", Description = "Physics course", ProfessorId = professorId, ImageUrl = "/images/physics.jpg" },
+                    new Course { Name = "Chemistry", Description = "Chemistry course", ProfessorId = professorId, ImageUrl = "/images/chemistry.jpg" },
+                    new Course { Name = "Biology", Description = "Biology course", ProfessorId = professorId, ImageUrl = "/images/biology.jpg" },
+                    new Course { Name = "History", Description = "History course", ProfessorId = professorId, ImageUrl = "/images/history.jpg" },
+                    new Course { Name = "Geography", Description = "Geography course", ProfessorId = professorId, ImageUrl = "/images/geography.jpg" },
+                    new Course { Name = "English", Description = "English course", ProfessorId = professorId, ImageUrl = "/images/english.jpg" },
+                    new Course { Name = "Computer Science", Description = "CS course", ProfessorId = professorId, ImageUrl = "/images/cs.jpg" },
+                    new Course { Name = "Art", Description = "Art course", ProfessorId = professorId, ImageUrl = "/images/art.jpg" },
+                    new Course { Name = "Music", Description = "Music course", ProfessorId = professorId, ImageUrl = "/images/music.jpg" }
+                );
+                context.SaveChanges();
+            }
+        }
+
+
+
+
+
+
+
+
+
     }
 }
 

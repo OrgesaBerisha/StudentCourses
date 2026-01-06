@@ -24,6 +24,20 @@ namespace StudentCourses.Controllers
 
             return Ok(new { token });
         }
+
+
+        [HttpPost("register")]
+        public IActionResult Register(RegisterDTO dto)
+        {
+            var result = _authService.Register(dto);
+
+            if (!result)
+                return BadRequest("Email already registered.");
+
+            return Ok("User registered successfully. You can now login.");
+        }
+
+
     }
 }
 

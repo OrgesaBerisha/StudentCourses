@@ -49,6 +49,31 @@ namespace StudentCourses.Data.Service
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
         }
+
+        public bool Register(RegisterDTO dto)
+        {
+            // Kontrollo nëse email ekziston
+            if (_context.Users.Any(u => u.Email == dto.Email))
+                return false; // Email already registered
+
+            var user = new User
+            {
+                FullName = dto.FullName,
+                Email = dto.Email,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
+                Role = "Student" // role default
+            };
+
+            _context.Users.Add(user);
+            _context.SaveChanges();
+            return true;
+        }
+
+
+
+
+
+
     }
 }
 

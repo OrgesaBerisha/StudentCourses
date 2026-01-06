@@ -12,6 +12,7 @@ namespace StudentCourses.Data
 
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Course> Courses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)  //lidhjet bohen qetu one to many
         {

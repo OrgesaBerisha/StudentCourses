@@ -46,6 +46,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 // === Services ===
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
 
 // === Seed ===
 builder.Services.AddTransient<Seed>();
